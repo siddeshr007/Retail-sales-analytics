@@ -12,19 +12,33 @@ Provide actionable insights on:
 🧱 Project Structure
 
 Retail-sales-analytics/
+
 │
+
 ├── data/
+
 │ ├── processed/
+
 │ │ └── superstore_clean.csv # Cleaned & feature-engineered dataset
+
 │ └── raw/
+
 │ └── superstore_raw... # Original Excel file (not tracked on GitHub)
+
 │
+
 ├── docs/
+
 │ └── project_brief.md # Problem statement & findings (summary)
+
 │
+
 ├── notebooks/
+
 │ └── 01_data_cleaning_eda.ipynb # Jupyter notebook: cleaning + EDA
+
 │
+
 └── README.md # This file
 
 🛠 Tech Stack
