@@ -133,19 +133,23 @@ Using data/processed/superstore_clean.csv, the planned dashboard will include:
 📌 How to Run Locally
 
 * Clone the repo:
+  
 **git clone https://github.com/siddeshr007/Retail-sales-analytics.git
 cd Retail-sales-analytics**
 
 * Create environment & install dependencies (example with pip):
+  
 **python -m venv .venv
 .\.venv\Scripts\activate         # Windows
 pip install pandas numpy matplotlib jupyterlab openpyxl**
 
 * Launch Jupyter:
+  
 **jupyter notebook**
 
 * Open notebooks/01_data_cleaning_eda.ipynb and run all cells.
 
 ✍️ Author
+
 Sai Siddesh Reddy Bynigeri
 Business / Data Analyst – Python, SQL, Tableau, Excel
