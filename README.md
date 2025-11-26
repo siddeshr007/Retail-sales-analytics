@@ -109,6 +109,18 @@ Visuals include:
   notebooks/01_data_cleaning_eda.ipynb
     - Contains full data cleaning, feature engineering, and EDA workflow.
 
+📊 Retail Sales Overview Dashboard
+
+![Retail Sales Analytics Dashboard](docs/retail_sales_dashboard.png)
+
+🔍 Key Insights
+
+- **Technology** drives the highest overall sales and profit, followed by **Furniture** and **Office Supplies**.  
+- The **West** region leads in sales and profit, while the **South** lags and may need targeted campaigns.  
+- Sales show a **clear upward trend** over time, with noticeable peaks in certain months (seasonal demand).  
+- Some product/discount combinations generate **good revenue but weak profit margins**, suggesting room to refine discount strategy.
+
+
 📈 5. Planned Tableau Dashboard
 
 Using data/processed/superstore_clean.csv, the planned dashboard will include:
