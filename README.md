@@ -59,7 +59,7 @@ Key fields:
 
 ---
 
-## 🔧 1. Data Cleaning
+## 🔧 Data Cleaning
 
 Performed in notebooks/01_data_cleaning_eda.ipynb.
 
@@ -74,7 +74,7 @@ Steps:
 * Verified missing values:
   - The dataset contains no nulls in key fields.
 
-## 🧩 2. Feature Engineering
+## 🧩 Feature Engineering
 
 New fields created:
 * order_year – year of the order
@@ -84,7 +84,7 @@ New fields created:
 
 These features are used for trend and profitability analysis and are saved in superstore_clean.csv.
 
-## 🔍 3. Exploratory Data Analysis (EDA)
+## 🔍 Exploratory Data Analysis (EDA)
 
 Key analyses in the notebook:
 * Sales by Category
@@ -100,7 +100,7 @@ Visuals include:
 * Bar chart: total sales by category
 * Line chart: monthly sales trend over time
 
-## 💾 4. Outputs
+## 💾 Outputs
 
 * Processed dataset
   data/processed/superstore_clean.csv
@@ -126,7 +126,7 @@ Visuals include:
 
 ---
 
-## 📈 5. Planned Tableau Dashboard
+## 📈 Planned Tableau Dashboard
 
 Using data/processed/superstore_clean.csv, the planned dashboard will include:
 * KPI Cards
