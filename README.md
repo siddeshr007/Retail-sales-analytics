@@ -15,7 +15,7 @@ Provide actionable insights on:
 ---
 
 ##  🧱 Project Structure
-````` ```
+```
 
 Retail-sales-analytics/
 
@@ -39,7 +39,7 @@ Retail-sales-analytics/
 
 └── README.md # This file
 
-````` ```
+```
 
 ---
 
