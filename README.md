@@ -16,28 +16,22 @@ Provide actionable insights on:
 
 ##  🧱 Project Structure
 ```
+customer-churn-analytics/
+├─ data/
+│  ├─ raw/
+│  │  └─ telco_churn_raw.csv          # Original telco churn dataset
+│  └─ processed/
+│     └─ churn_scored.csv             # Test set with churn probabilities
+├─ docs/
+│  ├─ churn_report.md                 # Business / BA-style report
+│  └─ churn_dashboard.png             # Exported Tableau dashboard (optional)
+├─ models/
+│  └─ churn_logistic_model.pkl        # Saved logistic regression model
+├─ notebooks/
+│  └─ 01_churn_model.ipynb            # Main Jupyter notebook (EDA + ML)
+├─ .gitignore
+└─ README.md
 
-Retail-sales-analytics/
-
-├── data/
-
-│ ├── processed/
-
-│ │ └── superstore_clean.csv # Cleaned & feature-engineered dataset
-
-│ └── raw/
-
-│ └── superstore_raw... # Original Excel file (not tracked on GitHub)
-
-├── docs/
-
-│ └── project_brief.md # Problem statement & findings (summary)
-
-├── notebooks/
-
-│ └── 01_data_cleaning_eda.ipynb # Jupyter notebook: cleaning + EDA
-
-└── README.md # This file
 
 ```
 
