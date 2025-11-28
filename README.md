@@ -1,7 +1,7 @@
-# Retail Sales Analytics Project 
+## Retail Sales Analytics Project 
 End-to-end analysis of the Sample Superstore dataset to understand sales and profitability by product, region, and customer segment.
 
-🎯 Objective
+## 🎯 Objective
 
 Provide actionable insights on:
 * Which categories/sub-categories drive the most revenue and profit
@@ -9,7 +9,7 @@ Provide actionable insights on:
 * How sales trend over time (seasonality, growth)
 * Where profit margins are strong or weak
 
-🧱 Project Structure
+##  🧱 Project Structure
 
 Retail-sales-analytics/
 
@@ -41,14 +41,14 @@ Retail-sales-analytics/
 
 └── README.md # This file
 
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 * Python: pandas, numpy, matplotlib
 * Jupyter Notebook (Anaconda)
 * Git & GitHub for version control
 * Tableau (planned dashboard using superstore_clean.csv)
 
-📊 Dataset
+## 📊 Dataset
 
 * ~9,994 orders from the Sample Superstore dataset
 
@@ -59,7 +59,7 @@ Key fields:
 * Product: category, sub_category, product_name
 * Metrics: sales, quantity, discount, profit
 
-🔧 1. Data Cleaning
+## 🔧 1. Data Cleaning
 
 Performed in notebooks/01_data_cleaning_eda.ipynb.
 
@@ -74,7 +74,7 @@ Steps:
 * Verified missing values:
   - The dataset contains no nulls in key fields.
 
-🧩 2. Feature Engineering
+## 🧩 2. Feature Engineering
 
 New fields created:
 * order_year – year of the order
@@ -84,7 +84,7 @@ New fields created:
 
 These features are used for trend and profitability analysis and are saved in superstore_clean.csv.
 
-🔍 3. Exploratory Data Analysis (EDA)
+## 🔍 3. Exploratory Data Analysis (EDA)
 
 Key analyses in the notebook:
 * Sales by Category
@@ -100,7 +100,7 @@ Visuals include:
 * Bar chart: total sales by category
 * Line chart: monthly sales trend over time
 
-💾 4. Outputs
+## 💾 4. Outputs
 
 * Processed dataset
   data/processed/superstore_clean.csv
@@ -109,11 +109,11 @@ Visuals include:
   notebooks/01_data_cleaning_eda.ipynb
     - Contains full data cleaning, feature engineering, and EDA workflow.
 
-📊 Retail Sales Overview Dashboard
+## 📊 Retail Sales Overview Dashboard
 
 ![Retail Sales Analytics Dashboard](docs/retail_sales_dashboard.png)
 
-🔍 Key Insights
+## 🔍 Key Insights
 
 - **Technology** drives the highest overall sales and profit, followed by **Furniture** and **Office Supplies**.  
 - The **West** region leads in sales and profit, while the **South** lags and may need targeted campaigns.  
@@ -121,7 +121,7 @@ Visuals include:
 - Some product/discount combinations generate **good revenue but weak profit margins**, suggesting room to refine discount strategy.
 
 
-📈 5. Planned Tableau Dashboard
+## 📈 5. Planned Tableau Dashboard
 
 Using data/processed/superstore_clean.csv, the planned dashboard will include:
 * KPI Cards
@@ -142,7 +142,7 @@ Using data/processed/superstore_clean.csv, the planned dashboard will include:
   - Segment
   - Category
 
-📌 How to Run Locally
+## 📌 How to Run Locally
 
 * Clone the repo:
   
@@ -161,7 +161,7 @@ pip install pandas numpy matplotlib jupyterlab openpyxl**
 
 * Open notebooks/01_data_cleaning_eda.ipynb and run all cells.
 
-✍️ Author
+## ✍️ Author
 
 Sai Siddesh Reddy Bynigeri
 
