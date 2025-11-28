@@ -1,5 +1,8 @@
 ## Retail Sales Analytics Project 
+
 End-to-end analysis of the Sample Superstore dataset to understand sales and profitability by product, region, and customer segment.
+
+---
 
 ## 🎯 Objective
 
@@ -9,11 +12,12 @@ Provide actionable insights on:
 * How sales trend over time (seasonality, growth)
 * Where profit margins are strong or weak
 
+---
+
 ##  🧱 Project Structure
+````` ```
 
 Retail-sales-analytics/
-
-│
 
 ├── data/
 
@@ -25,21 +29,18 @@ Retail-sales-analytics/
 
 │ └── superstore_raw... # Original Excel file (not tracked on GitHub)
 
-│
-
 ├── docs/
 
 │ └── project_brief.md # Problem statement & findings (summary)
-
-│
 
 ├── notebooks/
 
 │ └── 01_data_cleaning_eda.ipynb # Jupyter notebook: cleaning + EDA
 
-│
-
 └── README.md # This file
+````` ```
+
+---
 
 ## 🛠 Tech Stack
 
@@ -47,6 +48,8 @@ Retail-sales-analytics/
 * Jupyter Notebook (Anaconda)
 * Git & GitHub for version control
 * Tableau (planned dashboard using superstore_clean.csv)
+
+---
 
 ## 📊 Dataset
 
@@ -58,6 +61,8 @@ Key fields:
 * Geography: country, city, state, postal_code, region
 * Product: category, sub_category, product_name
 * Metrics: sales, quantity, discount, profit
+
+---
 
 ## 🔧 1. Data Cleaning
 
@@ -109,9 +114,13 @@ Visuals include:
   notebooks/01_data_cleaning_eda.ipynb
     - Contains full data cleaning, feature engineering, and EDA workflow.
 
+---
+
 ## 📊 Retail Sales Overview Dashboard
 
 ![Retail Sales Analytics Dashboard](docs/retail_sales_dashboard.png)
+
+---
 
 ## 🔍 Key Insights
 
@@ -120,6 +129,7 @@ Visuals include:
 - Sales show a **clear upward trend** over time, with noticeable peaks in certain months (seasonal demand).  
 - Some product/discount combinations generate **good revenue but weak profit margins**, suggesting room to refine discount strategy.
 
+---
 
 ## 📈 5. Planned Tableau Dashboard
 
@@ -142,6 +152,8 @@ Using data/processed/superstore_clean.csv, the planned dashboard will include:
   - Segment
   - Category
 
+---
+
 ## 📌 How to Run Locally
 
 * Clone the repo:
@@ -160,6 +172,8 @@ pip install pandas numpy matplotlib jupyterlab openpyxl**
 **jupyter notebook**
 
 * Open notebooks/01_data_cleaning_eda.ipynb and run all cells.
+
+---
 
 ## ✍️ Author
 
